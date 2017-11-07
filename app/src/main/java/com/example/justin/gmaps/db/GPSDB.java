@@ -19,7 +19,7 @@ public class GPSDB extends SQLiteOpenHelper implements DataConst{
     @Override
     public void onCreate(SQLiteDatabase db) {
         String sql = "CREATE TABLE IF NOT EXISTS " + TABLENAME + " (" +
-                ORDER + "INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,  "
+                ORDER + " INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,  "
                 + LATI +  " DOUBLE, "
                 + LONGI + " DOUBLE, "
                 + DATE + " TEXT, "
